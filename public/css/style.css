@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0.1px;
+    background-color: #f6f8f9;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    padding: 10px 0;
+    margin: 15px 0;
+}
+
+h1, h2 {
+    color: #34495e;
+    margin: 0;
+    padding: 15px;
+}
+
+h2 {
+    margin-top: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.topbar {
+    background: white url('../images/topbar.png') repeat-x;
+    border-bottom: 2px solid lightgray;
+}
+
+.topbar .title, .topbar .menu, .topbar .menu a {
+    display: inline-block;
+}
+
+.topbar .title h1 {
+    font-family: Courier;
+    font-size: 35px;
+}
+
+.topbar .menu a {
+    color: #777;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.topbar .menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+.container .content {
+    margin: 15px 15px 25px 15px;
+}
+
+.container .content.feedback p {
+    display: inline-block;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 10px 0 0 0;
+}
+
+.container .button, .container input, .container textarea {
+    font: inherit;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    color: #34495e;
+}
+
+.container .button:hover, .container input:focus, .container textarea:focus {
+    border-color: #34495e;
+}
+
+.container select {
+    width: 100%;
+    font-size: inherit;
+}
+
+.container textarea, .container input:not([type=submit]) {
+    width: 100%;
+    max-width: 500px;
+}
+
+.container ul {
+    width: 200px;
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li a {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.container ul li a:hover {
+    font-weight: bold;
+}
+
+.container table {
+    width: 100%;
+    max-width: 500px;
+    margin: 15px 0;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+.container table th {
+    text-align: left;
+}
+
+.container table th, .container table a, .container table .no-link td {
+    padding: 10px;
+}
+
+.container table a {
+    display: inline-block;
+    width: 100%;
+}
+
+.container tbody tr:nth-child(even), .container thead tr {
+    background-color: lightgray;
+}
+
+.container tbody:not(.no-link) tr:hover {
+    background-color: #777;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 25px 10%;
+    border-top: 2px solid lightgray;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
